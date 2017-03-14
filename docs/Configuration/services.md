@@ -12,7 +12,7 @@ services:
     type: face
 
 # app.js
-matrix.init('face')
+matrix.service('face')
 ```
 
 For the data formats of the payloads returned, refer to [Computer Vision](../API/computer-vision.md)
